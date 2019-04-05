@@ -13,10 +13,10 @@ var smtpTransport = nodemailer.createTransport({
     auth: {
         type: 'OAuth2',
         user: 'chenweinberg@gmail.com',
-        clientId: '695987177749-4aod00ughphctfqouqdn98dn372g1n5o.apps.googleusercontent.com',
-        clientSecret: 'Ag2EGt01gZG1SNpJEtY6LU9o',
-        refreshToken: '1/8x5rt7dWT7PLclRHowjpNVRfP1R164dho6z8ai6HbkA',
-        accessToken: 'ya29.GluABXFWmYm5nOxCsoAtWyeu8KNDg3H8nGhOa_RAhpUyZU2fkJVdT4b6dNAYkFCG9DCdSq1XYAazry5QLCtGbzmzFKpRKwQ5y53R59_d4XoUZJ5zjQEp57kVfq8P',
+        clientId: '',
+        clientSecret: '',
+        refreshToken: '',
+        accessToken: '',
         expires: 3000 
     }
 });
