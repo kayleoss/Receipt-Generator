@@ -1,0 +1,53 @@
+<% include partials/header %>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h1 class="label-h1">RMT Receipt</h1>
+        <form action="/rmt-receipt" method="POST">
+            <label for="patient_name">Patient Name</label><br/>
+            <input type="text" name="patient_name" placeholder="Enter the patient's full name" required><br/>
+            <label for="patient_name">Patient's Email Address</label><br/>
+            <input type="text" name="patient_email" placeholder="Enter the patient's email" required><br/>
+            <label for="date">Date</label><br/>
+            <input type="text" name="date" placeholder="Enter The Date" required><br/>
+            <label for="service_length">Duration of Treatment</label><br/>
+            <input type="text" name="service_length" placeholder="Enter the duration of treatment" required><br/>
+            <label for="service_desc">Description of Service</label><br/>
+            <input type="text" name="service_desc" placeholder="Enter the description of service" required><br/>
+            <label for="amount">Amount</label><br/>
+            <input type="text" name="amount" placeholder="Enter the amount $" required><br/>
+            <div style="text-align:center">
+                <button class="btn btn-custom" type="submit" required>Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-6">
+        <h1 class="label-h1">Acupuncture Receipt</h1>
+        <form action="/acu-receipt" method="POST">
+            <label for="patient_name">Patient Name</label><br/>
+            <input type="text" name="patient_name" placeholder="Enter the patient's full name" required><br/>
+            <label for="patient_name">Patient's Email Address</label><br/>
+            <input type="text" name="patient_email" placeholder="Enter the patient's email" required><br/>
+            <label for="date">Date</label><br/>
+            <input type="text" name="date" placeholder="Enter The Date" required><br/>
+            <label for="service_length">Duration of Treatment</label><br/>
+            <input type="text" name="service_length" placeholder="Enter the duration of treatment" required><br/>
+            <label for="service_desc">Description of Service</label><br/>
+            <input type="text" name="service_desc" placeholder="Enter the description of service" required><br/>
+            <label for="amount">Amount</label><br/>
+            <input type="text" name="amount" placeholder="Enter the amount $" required><br/>
+            <div style="text-align:center">
+                <button class="btn btn-custom" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-8 offset-md-2 mt-3">
+        <form action="/download" method="get" class="text-center no-bg">
+            <button type='submit' class='btn btn-success'>Download</button>
+        </form> 
+    </div>
+</div>
+
+
+
+<% include partials/footer %>

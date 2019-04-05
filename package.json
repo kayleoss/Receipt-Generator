@@ -1,0 +1,28 @@
+{
+  "name": "office-gen-neshama",
+  "version": "1.0.0",
+  "description": "a program for chen weinberg/neshama therapy to email receipts to clients (email with word document)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "office-gen",
+    "neshama",
+    "therapy"
+  ],
+  "author": "katie liu",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.6.3",
+    "officegen": "^0.4.5",
+    "path": "^0.12.7",
+    "xoauth2": "^1.2.0"
+  }
+}
